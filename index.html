@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="focusing();">
+    <div id="main">
+    <div class="container">
+        <h1>Number Guesser</h1>
+        <div id="game">
+        <P>Guess a number between <span class="min-num">1</span>
+        and <span class="max-num">10</span>
+        </P>
+    <!-- <form id="sub"> -->
+        <input type="number" placeholder="Enter your guess..." id="guess-input" onkeypress="submitting(event);">
+        <input type="submit" value="Submit" id="guess-btn">
+    <!-- </form> -->
+        <p class="message"></p>
+    </div>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
